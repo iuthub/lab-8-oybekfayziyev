@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ URL::to('css/styles.css') }}">
 </head>
 <body>
-@include('partials.header')
+@include('partials.admin-header')
 <div class="container">
     @yield('content')
 </div>
